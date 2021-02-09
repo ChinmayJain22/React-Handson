@@ -1,0 +1,11 @@
+.button{
+    color: blue;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -30,7 +30,7 @@ export class ListofPlayers extends Component {
 
 export class Scorebelow70 extends Component {
     render() {
-        let player70 = []
+        let player70 = [];
         {
             this.props.players.map((players) => {
                 if (players.playerscore <= 70) {

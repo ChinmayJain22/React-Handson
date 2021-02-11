@@ -3,7 +3,7 @@ import sr from '../sr.jpg';
 import '../StyleSheets/MyStyle.css';
 
 
-const image = <img src={sr} width="25%" height="25%" alt= "Office" />
+const image = <img src={sr} width="25%" height="25%" alt="Office" />
 const ItemName = { Name: "DBS", Rent: 70000, Address: "Chennai" }
 
 const Content = () => {

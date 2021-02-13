@@ -1,0 +1,28 @@
+.v1{
+    float: left;
+    color: blue;
+    border-right: 6px solid green;
+    height: 400px;
+    padding: 20px;
+  top: 0%;
+}
+.v2{
+    text-align: center;
+    color: green;
+    position: relative;
+    right: 15%;
+    padding: 20px;
+  top: 0%;
+
+
+}
+.v3{
+
+    color: indigo;
+    position: absolute;
+    border-left: 6px solid green;
+  right: 0px;
+  padding: 20px;
+  top: 0%;
+   
+}

@@ -14,14 +14,14 @@ export class Converter extends Component {
 
     }
 
-    CurrencyChangeMethod=()=>{
+     CurrencyChangeMethod=()=>{
 
         var totalamt= this.state.amount*80;
         this.setState(
             {TotalAmt:totalamt}
         )
     }
-    handlechange(event){
+    handlechange=(event)=>{
         this.setState({[event.target.name] : event.target.value})
     }
 
@@ -31,9 +31,6 @@ export class Converter extends Component {
         event.preventdefault();
     }
     
-
-
-
     render() {
         return (
             <div >

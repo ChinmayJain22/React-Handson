@@ -6,9 +6,9 @@ const Button = ()=>{
     const sayhello = (name)=>{
       //  return(alert(`${name}`))
     };
-    const saywelcome=(welcome)=>{
-        return (alert(`${welcome}`))
-    };
+    // const saywelcome=(welcome)=>{
+    //     return (alert(`${welcome}`))
+    // };
     const CustomButton=({onpress})=>{
         return(
             <button type = "button" onClick={onpress}>Click on me</button>
@@ -25,7 +25,7 @@ const Button = ()=>{
            <p> {count}</p>
             <button onClick={()=>{sayhello("Hello");setCount(count+1)}}>Increment</button><br/>
             <button onClick={()=>{setCount(count-1)}}>decrement</button><br />
-            <button onClick={()=>{saywelcome("Welcome")}}>Say Welcome</button><br />
+            <button value="Welcome" onClick={(e)=>alert(e.target.value)}>SayWelcome</button><br />
             <CustomButton onpress={handleevent} />
 
         </div>
